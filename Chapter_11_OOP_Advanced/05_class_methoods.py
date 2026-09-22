@@ -1,0 +1,10 @@
+class Employee:
+    a = 12
+    @classmethod
+    def show(cls):
+        print(f"The class attribute of a is : {cls.a}")
+
+poe = Employee()
+poe.a = 67
+
+poe.show()
